@@ -50,7 +50,7 @@ Este enfoque permite la **identificación de patrones de riesgo** y la trazabili
 La clave de la API de OpenAI debe ser modificada en el archivo `main_surveillance_loop.m`
 
 1.  **Obtén tu Clave:** Consigue una clave de API válida de OpenAI.
-2.  **Introducela en el valor API_KEY entre ' '
+2.  **Introducela** en el valor API_KEY entre ' '
 
 ### 3. Generación de la Base de Datos Biométrica
 
