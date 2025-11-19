@@ -41,6 +41,9 @@ Este enfoque permite la **identificación de patrones de riesgo** y la trazabili
 * **Toolboxes requeridas:**
     * Deep Learning Toolbox™
     * Computer Vision Toolbox™
+    * Deep Learning Toolbox Model for ResNet-50 network™
+    * Image Processing Toolbox™
+    * MATLAB Support Package for USB Webcams™
 
 ### 2. Configuración de la API (Paso CRÍTICO de Seguridad) 🔒
 
