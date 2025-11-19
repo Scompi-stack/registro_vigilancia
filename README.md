@@ -67,7 +67,7 @@ Antes de iniciar la vigilancia, debes entrenar el sistema con las identidades co
 
 ### 4. Iniciando el Sistema de Vigilancia
 
-Una vez que la base de datos (`face_db.mat`) y la clave API (`OPENAI_API_KEY`) están configuradas, ejecuta el *loop* principal:
+Una vez que la base de datos (`face_db.mat`) y la clave API (`API_KEY`) están configuradas, ejecuta el *loop* principal:
 
 ```matlab
 main_surveillance_loop
