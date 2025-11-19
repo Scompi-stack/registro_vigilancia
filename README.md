@@ -47,15 +47,10 @@ Este enfoque permite la **identificación de patrones de riesgo** y la trazabili
 
 ### 2. Configuración de la API (Paso CRÍTICO de Seguridad) 🔒
 
-La clave de la API de OpenAI **NO debe estar codificada** en el archivo `main_surveillance_loop.m`. El sistema está configurado para cargarla de forma segura:
+La clave de la API de OpenAI debe ser modificada en el archivo `main_surveillance_loop.m`
 
 1.  **Obtén tu Clave:** Consigue una clave de API válida de OpenAI.
-2.  **Configura la Variable de Entorno:** Configura la variable de entorno global llamada `OPENAI_API_KEY` con tu clave secreta.
-
-| Sistema Operativo | Comando de Configuración (Ejemplo) |
-| :--- | :--- |
-| **Windows (CMD)** | `set OPENAI_API_KEY=sk-proj-TU-CLAVE` |
-| **Mac/Linux** | `export OPENAI_API_KEY=sk-proj-TU-CLAVE` |
+2.  **Introducela en el valor API_KEY entre ' '
 
 ### 3. Generación de la Base de Datos Biométrica
 
